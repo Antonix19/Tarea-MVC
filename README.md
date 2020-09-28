@@ -1,29 +1,10 @@
 # Tarea-MVC
-Investigación ¿Que es un modelo MVC?
-
-
-
-
 
 
  # Instituto Tecnológico Milpa Alta II
-
- 
-# INGENIERÍA EN SISTEMAS COMPUTACIONALES
-
-
 # Investigacion de Modelo MVC
 
- 
-# Alumnos:García Hernández Noé Antonio
-
-
-
-# Docente: Ing. JULIO CESAR CASTOR DIAZ
-
-
-
-
+[](http://codingornot.com/wp-content/uploads/2017/10/mvc-modelo-vista-controlador.png)
 
 
 
