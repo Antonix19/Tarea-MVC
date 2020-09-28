@@ -16,7 +16,7 @@ Su fundamento es la separación del código en tres capas diferentes, acotadas p
 Este componente se encarga de manipular, gestionar y actualizar los datos. Si se utiliza una base de datos aquí es donde se realizan las consultas, búsquedas, filtros y actualizaciones.
 
 # Vista: 
-Este componente se encarga de mostrarle al usuario final las pantallas, ventanas, páginas y formularios; el resultado de una solicitud. Desde la perspectiva del programador este componente es el que se encarga del frontend; la programación de la interfaz de usuario si se trata de un aplicación de escritorio, o bien, la visualización de las páginas web (CSS, HTML, HTML5 y Javascript).
+Este componente se encarga de mostrarle al usuario final las pantallas, ventanas, páginas y formularios; el resultado de una solicitud. Desde la perspectiva del programador este componente es el que se encarga del frontend; la programación de la interfaz de usuario si se trata de un aplicación de escritorio (CSS, HTML, HTML5 y Javascript).
 
 # Controlador: 
 Este componente se encarga de gestionar las instrucciones que se reciben, atenderlas y procesarlas. Por medio de él se comunican el modelo y la vista: solicitando los datos necesarios; manipulándolos para obtener los resultados; y entregándolos a la vista para que pueda mostrarlos.
@@ -72,7 +72,7 @@ Este patrón permite agregar funcionalidades o responsabilidades a objetos de fo
 
 
 
-Ejemplifique un modelo MVC en el lenguaje de preferencia (Se consideran la organización de los archivos)
+# Ejemplifique un modelo MVC en el lenguaje de preferencia (Se consideran la organización de los archivos)
 
 # EL modelo a utilizar el en php 
 >MVC
@@ -80,4 +80,22 @@ Ejemplifique un modelo MVC en el lenguaje de preferencia (Se consideran la organ
 	>Modulos
 	>Views
 		>Usuario
-	Index.php
+	>Index.php
+# El modelo a utilizar ASP.NET MVC
+>MVC
+	>App_Data
+	>App_Start
+	>Contenido
+	>COntroladores
+	>Fuentes
+	>Modelo
+	>Js
+	>Views
+# El modelo a utilizar Angular MVC
+>MVC
+	>Model
+    	>View
+		 -JSP
+		 -ASP
+		 -PHP
+    	>View Model
