@@ -1,16 +1,17 @@
 # Tarea-MVC
 
+# Instituto Tecnológico Milpa Alta II
+## Investigacion de Modelo MVC
 
- # Instituto Tecnológico Milpa Alta II
-# Investigacion de Modelo MVC
-
-[](http://codingornot.com/wp-content/uploads/2017/10/mvc-modelo-vista-controlador.png)
+# Introducción
+En este repositorio se dara una introducció de lo que es el Patron **MVC** y sus framworks en donde se pueden implementar con unos ejemplos de como se Utiliza.
 
 
-
+# MVC y  su relación con los patrones de diseño de software
 El MVC es un patrón de diseño arquitectónico de software, que sirve para clasificar la información, la lógica del sistema y la interfaz que se le presenta al usuario. En este tipo de arquitectura existe un sistema central o controlador que gestiona las entradas y la salida del sistema, uno o varios modelos que se encargan de buscar los datos e información necesaria y una interfaz que muestra los resultados al usuario final.
 Su fundamento es la separación del código en tres capas diferentes, acotadas por su responsabilidad, en lo que se llaman Modelos, Vistas y Controladores, o lo que es lo mismo, Model, Views & Controllers.
- 
+
+/![](http://codingornot.com/wp-content/uploads/2017/10/mvc-modelo-vista-controlador.png) 
 # Modelo: 
 Este componente se encarga de manipular, gestionar y actualizar los datos. Si se utiliza una base de datos aquí es donde se realizan las consultas, búsquedas, filtros y actualizaciones.
 
@@ -20,7 +21,7 @@ Este componente se encarga de mostrarle al usuario final las pantallas, ventanas
 # Controlador: 
 Este componente se encarga de gestionar las instrucciones que se reciben, atenderlas y procesarlas. Por medio de él se comunican el modelo y la vista: solicitando los datos necesarios; manipulándolos para obtener los resultados; y entregándolos a la vista para que pueda mostrarlos.
 
-# Framewor que utilizan el mvc son: 
+# ¿Que frameworks utiliza el modelo MVC? 
 
 Ruby: ruby on rails, Sinatra
 
@@ -32,7 +33,7 @@ PYTHON: Django, Flask
 
 NET: ASP MVC
 
-# Ventajas de patrón MVC
+# ¿Qué ventajas ofrece el modelo MVC?
 
 •	El uso del patrón MVC ofrece múltiples ventajas sobre otras maneras de desarrollar aplicaciones con interfaz de usuario, y en especial para la Web
 
@@ -45,10 +46,8 @@ NET: ASP MVC
 •	Facilidad para realización de pruebas unitarias.
 
 
+# ¿Que otros modelos/frameworks existen de patrones de diseño? 
 
-
-
-# Otros variantes de los patrones de diseño
 
 Dependiendo de su finalidad pueden ser:
 
