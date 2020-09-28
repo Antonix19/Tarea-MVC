@@ -75,27 +75,27 @@ Este patrón permite agregar funcionalidades o responsabilidades a objetos de fo
 # Ejemplifique un modelo MVC en el lenguaje de preferencia (Se consideran la organización de los archivos)
 
 # EL modelo a utilizar el en php 
->MVC
-	>Controladores
-	>Modulos
-	>Views
-		>Usuario
-	>Index.php
+1. MVC
+   - Controladores
+   - Modulos
+   - Views
+     - Usuario
+   - Index.php
 # El modelo a utilizar ASP.NET MVC
->MVC
-	>App_Data
-	>App_Start
-	>Contenido
-	>COntroladores
-	>Fuentes
-	>Modelo
-	>Js
-	>Views
+1. MVC
+   - App_Data
+   - App_Start
+   - Contenido
+   - COntroladores
+   - Fuentes
+   - Modelo
+   - Js
+   - Views
 # El modelo a utilizar Angular MVC
->MVC
-	>Model
-    	>View
-		 -JSP
-		 -ASP
-		 -PHP
-    	>View Model
+1. MVC
+   - Model
+   - View
+     - JSP
+     - ASP
+     - PHP
+   - View Model
