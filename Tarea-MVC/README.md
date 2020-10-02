@@ -35,7 +35,7 @@ PYTHON: Django, Flask
 
 NET: ASP MVC
 
-[¿Qué ventajas ofrece el modelo MVC]
+## ¿Qué ventajas ofrece el modelo MVC
 
    • El uso del patrón MVC ofrece múltiples ventajas sobre otras maneras de desarrollar aplicaciones con interfaz de usuario, y en especial para la Web
 
