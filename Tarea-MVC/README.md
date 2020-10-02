@@ -14,13 +14,13 @@ Su fundamento es la separación del código en tres capas diferentes, acotadas p
 
 ![](http://codingornot.com/wp-content/uploads/2017/10/mvc-modelo-vista-controlador.png) 
 
-Modelo:
+**Modelo:**
 Este componente se encarga de manipular, gestionar y actualizar los datos. Si se utiliza una base de datos aquí es donde se realizan las consultas, búsquedas, filtros y actualizaciones.
 
-Vista:
+**Vista:**
 Este componente se encarga de mostrarle al usuario final las pantallas, ventanas, páginas y formularios; el resultado de una solicitud. Desde la perspectiva del programador este componente es el que se encarga del frontend; la programación de la interfaz de usuario si se trata de un aplicación de escritorio (CSS, HTML, HTML5 y Javascript).
 
-Controlador:
+**Controlador:**
 Este componente se encarga de gestionar las instrucciones que se reciben, atenderlas y procesarlas. Por medio de él se comunican el modelo y la vista: solicitando los datos necesarios; manipulándolos para obtener los resultados; y entregándolos a la vista para que pueda mostrarlos.
 
 **¿Que frameworks utiliza el modelo MVC?** 
@@ -51,13 +51,13 @@ NET: ASP MVC
 **¿Que otros modelos/frameworks existen de patrones de diseño?** 
 
 
-      Dependiendo de su finalidad pueden ser:
+   Dependiendo de su finalidad pueden ser:
 
-      •	Patrones de creación: utilizados para crear y configurar de clases y objetos.
+   • Patrones de creación: utilizados para crear y configurar de clases y objetos.
 
-      •	Patrones estructurales: su objetivo es desacoplar las interfaces e implementar clases y objetos. Crean grupos de objetos.
+   • Patrones estructurales: su objetivo es desacoplar las interfaces e implementar clases y objetos. Crean grupos de objetos.
 
-      •	Patrones de comportamiento: se centran en la interacción entre asociaciones de clases y objetos definiendo cómo se comunican entre sí.
+   • Patrones de comportamiento: se centran en la interacción entre asociaciones de clases y objetos definiendo cómo se comunican entre sí.
       
 
 **Observer** 
@@ -90,7 +90,7 @@ NET: ASP MVC
    - Modelo
    - Js
    - Views
-**El modelo a utilizar Angular MVC**
+**El modelo a utilizar JS MVC**
 1. MVC
    - Model
    - View
