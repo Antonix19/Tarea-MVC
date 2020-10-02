@@ -6,6 +6,7 @@
 # Introducción
 En este repositorio se dara una introducció de lo que es el Patron **MVC** y sus framworks en donde se pueden implementar con unos ejemplos de como se Utiliza.
 
+# Marco Teórico
 
 # MVC y  su relación con los patrones de diseño de software
 El MVC es un patrón de diseño arquitectónico de software, que sirve para clasificar la información, la lógica del sistema y la interfaz que se le presenta al usuario. En este tipo de arquitectura existe un sistema central o controlador que gestiona las entradas y la salida del sistema, uno o varios modelos que se encargan de buscar los datos e información necesaria y una interfaz que muestra los resultados al usuario final.
