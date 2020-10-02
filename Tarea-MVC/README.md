@@ -13,6 +13,7 @@ El MVC es un patrón de diseño arquitectónico de software, que sirve para clas
 Su fundamento es la separación del código en tres capas diferentes, acotadas por su responsabilidad, en lo que se llaman Modelos, Vistas y Controladores, o lo que es lo mismo, Model, Views & Controllers.
 
 ![](http://codingornot.com/wp-content/uploads/2017/10/mvc-modelo-vista-controlador.png) 
+
 Modelo:
 Este componente se encarga de manipular, gestionar y actualizar los datos. Si se utiliza una base de datos aquí es donde se realizan las consultas, búsquedas, filtros y actualizaciones.
 
@@ -100,3 +101,5 @@ Este patrón permite agregar funcionalidades o responsabilidades a objetos de fo
      - ASP
      - PHP
    - View Model
+ 
+ # REFERENCIAS
