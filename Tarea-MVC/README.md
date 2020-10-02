@@ -37,15 +37,15 @@ NET: ASP MVC
 
 **¿Qué ventajas ofrece el modelo MVC?**
 
-      •El uso del patrón MVC ofrece múltiples ventajas sobre otras maneras de desarrollar aplicaciones con interfaz de usuario, y en especial para la Web
+   El uso del patrón MVC ofrece múltiples ventajas sobre otras maneras de desarrollar aplicaciones con interfaz de usuario, y en especial para la Web
 
-      •La clara separación de responsabilidades impuesta por el uso del patrón MVC hace que los componentes de las aplicaciones tengan sus misiones bien definidas. Por lo tanto, los sistemas serán más limpios, simples, más fácilmente mantenibles y, a la postre, más robustos.
+   La clara separación de responsabilidades impuesta por el uso del patrón MVC hace que los componentes de las aplicaciones tengan sus misiones bien definidas. Por lo tanto, los sistemas serán más limpios, simples, más fácilmente mantenibles y, a la postre, más robustos.
 
-      •Mayor velocidad de desarrollo en equipo, ya que al estar separado en tres partes tan diferenciadas, diferentes programadores pueden ocuparse de cada parte en paralelo. Esto la hace ideal para el desarrollo de aplicaciones grandes.
+   Mayor velocidad de desarrollo en equipo, ya que al estar separado en tres partes tan diferenciadas, diferentes programadores pueden ocuparse de cada parte en paralelo. Esto la hace ideal para el desarrollo de aplicaciones grandes.
 
-      •Múltiples vistas a partir del mismo modelo, pudiendo reaprovechar mucho mejor los desarrollos y asegurando consistencia entre ellas.
+   Múltiples vistas a partir del mismo modelo, pudiendo reaprovechar mucho mejor los desarrollos y asegurando consistencia entre ellas.
 
-      •Facilidad para realización de pruebas unitarias.
+   Facilidad para realización de pruebas unitarias.
 
 
 **¿Que otros modelos/frameworks existen de patrones de diseño?** 
