@@ -1,6 +1,6 @@
 # Tarea-MVC
 
-# Instituto Tecnológico Milpa Alta II
+
 ## Investigacion de Modelo MVC
 
 # Introducción
@@ -11,14 +11,14 @@ En este repositorio se dara una introducció de lo que es el Patron **MVC** y su
 El MVC es un patrón de diseño arquitectónico de software, que sirve para clasificar la información, la lógica del sistema y la interfaz que se le presenta al usuario. En este tipo de arquitectura existe un sistema central o controlador que gestiona las entradas y la salida del sistema, uno o varios modelos que se encargan de buscar los datos e información necesaria y una interfaz que muestra los resultados al usuario final.
 Su fundamento es la separación del código en tres capas diferentes, acotadas por su responsabilidad, en lo que se llaman Modelos, Vistas y Controladores, o lo que es lo mismo, Model, Views & Controllers.
 
-/![](http://codingornot.com/wp-content/uploads/2017/10/mvc-modelo-vista-controlador.png) 
-# Modelo: 
+![](http://codingornot.com/wp-content/uploads/2017/10/mvc-modelo-vista-controlador.png) 
+ **Modelo:** 
 Este componente se encarga de manipular, gestionar y actualizar los datos. Si se utiliza una base de datos aquí es donde se realizan las consultas, búsquedas, filtros y actualizaciones.
 
-# Vista: 
+**Vista:** 
 Este componente se encarga de mostrarle al usuario final las pantallas, ventanas, páginas y formularios; el resultado de una solicitud. Desde la perspectiva del programador este componente es el que se encarga del frontend; la programación de la interfaz de usuario si se trata de un aplicación de escritorio (CSS, HTML, HTML5 y Javascript).
 
-# Controlador: 
+**Controlador:** 
 Este componente se encarga de gestionar las instrucciones que se reciben, atenderlas y procesarlas. Por medio de él se comunican el modelo y la vista: solicitando los datos necesarios; manipulándolos para obtener los resultados; y entregándolos a la vista para que pueda mostrarlos.
 
 # ¿Que frameworks utiliza el modelo MVC? 
