@@ -1,4 +1,4 @@
-# Tarea-MVC
+
 
 
 ## Investigacion de Modelo MVC
@@ -8,21 +8,21 @@ En este repositorio se dara una introducció de lo que es el Patron **MVC** y su
 
 # Marco Teórico
 
-# MVC y  su relación con los patrones de diseño de software
+ **MVC y  su relación con los patrones de diseño de software**
 El MVC es un patrón de diseño arquitectónico de software, que sirve para clasificar la información, la lógica del sistema y la interfaz que se le presenta al usuario. En este tipo de arquitectura existe un sistema central o controlador que gestiona las entradas y la salida del sistema, uno o varios modelos que se encargan de buscar los datos e información necesaria y una interfaz que muestra los resultados al usuario final.
 Su fundamento es la separación del código en tres capas diferentes, acotadas por su responsabilidad, en lo que se llaman Modelos, Vistas y Controladores, o lo que es lo mismo, Model, Views & Controllers.
 
 ![](http://codingornot.com/wp-content/uploads/2017/10/mvc-modelo-vista-controlador.png) 
- **Modelo:** 
+Modelo:
 Este componente se encarga de manipular, gestionar y actualizar los datos. Si se utiliza una base de datos aquí es donde se realizan las consultas, búsquedas, filtros y actualizaciones.
 
-**Vista:** 
+Vista:
 Este componente se encarga de mostrarle al usuario final las pantallas, ventanas, páginas y formularios; el resultado de una solicitud. Desde la perspectiva del programador este componente es el que se encarga del frontend; la programación de la interfaz de usuario si se trata de un aplicación de escritorio (CSS, HTML, HTML5 y Javascript).
 
-**Controlador:** 
+Controlador:
 Este componente se encarga de gestionar las instrucciones que se reciben, atenderlas y procesarlas. Por medio de él se comunican el modelo y la vista: solicitando los datos necesarios; manipulándolos para obtener los resultados; y entregándolos a la vista para que pueda mostrarlos.
 
-# ¿Que frameworks utiliza el modelo MVC? 
+**¿Que frameworks utiliza el modelo MVC?** 
 
 Ruby: ruby on rails, Sinatra
 
@@ -34,7 +34,7 @@ PYTHON: Django, Flask
 
 NET: ASP MVC
 
-# ¿Qué ventajas ofrece el modelo MVC?
+**¿Qué ventajas ofrece el modelo MVC?**
 
 •	El uso del patrón MVC ofrece múltiples ventajas sobre otras maneras de desarrollar aplicaciones con interfaz de usuario, y en especial para la Web
 
@@ -47,7 +47,7 @@ NET: ASP MVC
 •	Facilidad para realización de pruebas unitarias.
 
 
-# ¿Que otros modelos/frameworks existen de patrones de diseño? 
+**¿Que otros modelos/frameworks existen de patrones de diseño?** 
 
 
 Dependiendo de su finalidad pueden ser:
@@ -59,30 +59,30 @@ Dependiendo de su finalidad pueden ser:
 •	Patrones de comportamiento: se centran en la interacción entre asociaciones de clases y objetos definiendo cómo se comunican entre sí.
  
 
-# Observer 
+**Observer** 
 
 Es un patrón de comportamiento que permite relacionar diferentes objetos entre si en torno a uno Principal.
 
-# Adapter
+**Adapter**
 
 Permite la cooperación entre clases para extender sus funcionalidades a clases de diferentes tipos, que no pueden usarlas por mecanismos comunes como la herencia.
 
-# Decorator
+**Decorator**
 
 Este patrón permite agregar funcionalidades o responsabilidades a objetos de forma transparente y dinámica, sin ser dependiente de la herencia en su totalidad.
 
 
 
-# Ejemplifique un modelo MVC en el lenguaje de preferencia (Se consideran la organización de los archivos)
+**Ejemplifique un modelo MVC en el lenguaje de preferencia (Se consideran la organización de los archivos)**
 
-# EL modelo a utilizar el en php 
+**EL modelo a utilizar el en php** 
 1. MVC
    - Controladores
    - Modulos
    - Views
      - Usuario
    - Index.php
-# El modelo a utilizar ASP.NET MVC
+**El modelo a utilizar ASP.NET MVC**
 1. MVC
    - App_Data
    - App_Start
@@ -92,7 +92,7 @@ Este patrón permite agregar funcionalidades o responsabilidades a objetos de fo
    - Modelo
    - Js
    - Views
-# El modelo a utilizar Angular MVC
+**El modelo a utilizar Angular MVC**
 1. MVC
    - Model
    - View
