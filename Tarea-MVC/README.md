@@ -104,3 +104,5 @@ NET: ASP MVC
  # REFERENCIAS
 
  http://codingornot.com/mvc-modelo-vista-controlador-que-es-y-para-que-sirve
+ https://developer.okta.com/blog/2018/12/21/build-basic-web-app-with-mvc-angular
+ https://www.guidacode.com/2017/angularjs/explicacion-del-patron-mvc-en-angularjs/
