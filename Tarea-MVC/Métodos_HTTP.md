@@ -38,7 +38,9 @@ En esta hoja se explican los principales elementos del  protocolo HTTP usado en 
 ### 1XX Respuestas informativas 
 
   100 Continue. El servidor ha recibido los headers del request y el cliente debería proceder a enviar el cuerpo de la respuesta.
+  
   101 Switching Protocols. El requester ha solicitado al servidor conmutar protocolos.
+  
   102 Processing (WebDAV; RFC 2518). Usado en requests para reanudar peticiones PUT o POST abortadas.
 
 ### 2XX Peticiones correctas
@@ -79,8 +81,27 @@ En esta hoja se explican los principales elementos del  protocolo HTTP usado en 
 
 407 Proxy Authentication Required (RFC 7235). El cliente se debe identificar primero con el proxy. 
 
+### 5XX Errores del servidor
+
+  500 Internal Server Error. Error genérico, cuando se ha dado una condición no esperada y no se puede concretar el mensaje.
+    
+  501 Not Implemented. El servidor o no reconoce el método del request o carece de la capacidad para completarlo. Normalmente es algo que se ofrecerá en el futuro, como un nuevo servicio de una API.
+  
+  502 Bad Gateway. El server actuaba como puerta de entrada o proxy y recibió una respuesta inválida del servidor upstream.
+  
+  503 Service Unavailable. El servidor está actualmente no disponible, ya sea por mantenimiento o por sobrecarga.
+  
+  504 Gateway Timeout. El servidor estaba actuando como puerta de entrada o proxy y no recibió una respuesta oportuna por parte del servidor upstream.
+  
+  505 HTTP Version Not Supported. El servidor no soporta la versión del protocolo HTTP usada en el request.
+  
+  511 Network Authentication Required (RFC 6585). El cliente necesita autentificarse para poder acceder a la red.
+
+
 # REFERENCIAS
 
 https://developer.mozilla.org/es/docs/Web/HTTP/Methods
 
 https://profesores.virtual.uniandes.edu.co/~isis3710/dokuwiki/lib/exe/fetch.php?media=temas:http-guia.pdf
+
+https://diego.com.es/codigos-de-estado-http
