@@ -5,5 +5,6 @@ En esta hoja se explican los principales elementos del  protocolo HTTP usado en 
 
 # Marco Teórico
 
-GET
-    El método GET  solicita una representación de un recurso específico. Las peticiones que usan el método GET sólo deben recuperar datos.
+### GET
+
+El método GET  solicita una representación de un recurso específico. Las peticiones que usan el método GET sólo deben recuperar datos.
