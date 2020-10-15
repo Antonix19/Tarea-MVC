@@ -105,3 +105,5 @@ https://developer.mozilla.org/es/docs/Web/HTTP/Methods
 https://profesores.virtual.uniandes.edu.co/~isis3710/dokuwiki/lib/exe/fetch.php?media=temas:http-guia.pdf
 
 https://diego.com.es/codigos-de-estado-http
+
+https://yosoy.dev/peticiones-http-get-post-put-delete-etc/
