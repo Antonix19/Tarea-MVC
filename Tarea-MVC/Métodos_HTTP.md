@@ -158,7 +158,7 @@ En esta hoja se explican los principales elementos del  protocolo HTTP usado en 
 
   El método OPTIONS es utilizado para describir las opciones de comunicación para el recurso de destino.
 
-    ### Ejemplo
+  ### Ejemplo
   
   ```sh	
   curl -X OPTIONS https://pagina.net -i
