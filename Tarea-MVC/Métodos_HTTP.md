@@ -7,14 +7,14 @@ En esta hoja se explican los principales elementos del  protocolo HTTP usado en 
 
 ### GET
 
-  El método GET  solicita una representación de un recurso específico. Las peticiones que usan el método GET sólo deben recuperar datos.
+  El método GET significa recuperar cualquier información (en forma de una entidad) identificada por el Request-URI. Si el Request-URI. Son los datos producidos los que se devolverán como entidad en la respuesta y no el texto fuente del proceso. GET deberán recuperar únicamente datos.
 
   ### Ejemplo
 
   ```sh
   GET /index.html HTTP/1.1  
   User-Agent: Mozilla/4.0 (compatible; MSIE5.01; Windows NT)
-  Host: www.yosoy.dev
+  Host: www.pagina.com
   Accept-Language: es-mx
   Accept-Encoding: gzip, deflate
   Connection: Keep-Alive
@@ -24,19 +24,65 @@ En esta hoja se explican los principales elementos del  protocolo HTTP usado en 
   ```sh
   GET /index.html HTTP/1.1  
   User-Agent: Mozilla/4.0 (compatible; MSIE5.01; Windows NT)
-  Host: www.yosoy.dev
+  Host: www.pagina.com
   Accept-Language: es-mx
   Accept-Encoding: gzip, deflate
   Connection: Keep-Alive
+
+
+  <html>
+    <body>
+      <h1>Hello Word</h1>
+    </body>
+  </html>
   ```
 
 ### HEAD
 
   El método HEAD pide una respuesta idéntica a la de una petición GET, pero sin el cuerpo de la respuesta.
 
+   ### Ejemplo
+  
+  ```sh	
+  GET /index.html HTTP/1.1  
+  User-Agent: Mozilla/4.0 (compatible; MSIE5.01; Windows NT)
+  Host: www.pagina.com
+  Accept-Language: es-mx
+  Accept-Encoding: gzip, deflate
+  Connection: Keep-Alive
+  ```
+
+  ### Impresion
+
+  ```sh
+  HTTP/1.1 200 OK
+  Date: Mon, 27 Jul 2009 12:28:53 GMT
+  Server: Apache/2.2.14 (Win32)
+  Last-Modified: Wed, 22 Jul 2009 19:15:56 GMT
+  ETag: "34aa387-d-1568eb00"
+  Vary: Authorization,Accept
+  Accept-Ranges: bytes
+  Content-Length: 88
+  Content-Type: text/html
+  Connection: Closed
+  ```
+
 ### POST
     
   El método POST se utiliza para enviar una entidad a un recurso en específico, causando a menudo un cambio en el estado o efectos secundarios en el servidor.
+
+   ### Ejemplo
+
+  ```sh	
+  POST /cgi-bin/process.cgi HTTP/1.1
+  User-Agent: Mozilla/4.0 (compatible; MSIE5.01; Windows NT)
+  Host: www.pagina.com
+  Content-Type: text/xml; charset=utf-8
+  Content-Length: 88
+  Accept-Language: es-mx
+  Accept-Encoding: gzip, deflate
+  Connection: Keep-Alive
+  ```
 
 ### PATCH
     
@@ -45,14 +91,88 @@ En esta hoja se explican los principales elementos del  protocolo HTTP usado en 
 ### PUT
 
   El modo PUT reemplaza todas las representaciones actuales del recurso de destino con la carga útil de la petición.
+
+  ### Ejemplo
+  
+  ```sh	
+  PUT /index.htm HTTP/1.1
+  User-Agent: Mozilla/4.0 (compatible; MSIE5.01; Windows NT)
+  Host: www.pagina.com
+  Accept-Language: es-mx
+  Connection: Keep-Alive
+  Content-type: text/html
+  Content-Length: 182
+
+
+
+  <html>
+    <body>
+      <h1>Hello Word</h1>
+    </body>
+  </html>
+  ```
+
+  ### Impresion
+
+  ```sh
+  HTTP/1.1 201 Created
+  Date: Mon, 27 Nov 2017 12:28:53 GMT
+  Server: Apache/2.2.14 (Win32)
+  Content-type: text/html
+  Content-length: 30
+  Connection: Closed
+  ```
   
 ### DELETE
   
-  El método DELETE borra un recurso en específico.
+  El método DELETE borra un archivo en una ubicación específica dada por la URL.
+
+   ### Ejemplo
+  
+  ```sh	
+  DELETE /hello.htm HTTP/1.1
+  User-Agent: Mozilla/4.0 (compatible; MSIE5.01; Windows NT)
+  Host: www.pagina.com
+  Accept-Language: es-mx
+  Connection: Keep-Alive
+  ```
+
+  ### Impresion
+
+  ```sh
+  HTTP/1.1 200 OK
+  Date: Mon, 27 Jul 2009 12:28:53 GMT
+  Server: Apache/2.2.14 (Win32)
+  Content-type: text/html
+  Content-length: 30
+  Connection: Closed
+
+  <html>
+    <body>
+    <h1>URL deleted.</h1>
+    </body>
+  </html>  
+  ```
 
 ### OPTIONS
 
   El método OPTIONS es utilizado para describir las opciones de comunicación para el recurso de destino.
+
+    ### Ejemplo
+  
+  ```sh	
+  curl -X OPTIONS https://pagina.net -i
+  ```
+
+  ### Impresion
+
+  ```sh
+  HTTP/1.1 200 OK
+  Date: Wed, 8 Nov 2017 12:28:53 GMT
+  Server: Apache/2.2.14 (Win32)
+  Allow: GET,HEAD,POST,OPTIONS,TRACE
+  Content-Type: httpd/unix-directory 
+  ```
 
 ##  Códigos de estado HTTP
 
