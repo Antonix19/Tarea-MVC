@@ -9,6 +9,27 @@ En esta hoja se explican los principales elementos del  protocolo HTTP usado en 
 
   El método GET  solicita una representación de un recurso específico. Las peticiones que usan el método GET sólo deben recuperar datos.
 
+  ### Ejemplo
+
+  ```sh
+  GET /index.html HTTP/1.1  
+  User-Agent: Mozilla/4.0 (compatible; MSIE5.01; Windows NT)
+  Host: www.yosoy.dev
+  Accept-Language: es-mx
+  Accept-Encoding: gzip, deflate
+  Connection: Keep-Alive
+  ```
+  ### Impresion
+
+  ```sh
+  GET /index.html HTTP/1.1  
+  User-Agent: Mozilla/4.0 (compatible; MSIE5.01; Windows NT)
+  Host: www.yosoy.dev
+  Accept-Language: es-mx
+  Accept-Encoding: gzip, deflate
+  Connection: Keep-Alive
+  ```
+
 ### HEAD
 
   El método HEAD pide una respuesta idéntica a la de una petición GET, pero sin el cuerpo de la respuesta.
