@@ -3,6 +3,6 @@
 
 
 ## Lista de tareas
-[Tarea MVC](Tarea-MVC-Garcia-Hernandez-Noe-Antonio/README.md)
+[Tarea MVC](Tareas/README.md)
 
-[Tarea Métodos HTTP](Tarea-MVC/Métodos_HTTP.md)
+[Tarea Métodos HTTP](Tareas/Métodos_HTTP.md)
